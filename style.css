@@ -8,6 +8,11 @@ body, html {
    
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-snap-type: proximity;
+}
+
 body::-webkit-scrollbar {
     display: none;
 }
