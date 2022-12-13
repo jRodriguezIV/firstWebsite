@@ -19,7 +19,7 @@ body::-webkit-scrollbar {
 } */
 
 
-.img-1, .img-2, .img-3 {
+.img-1, .img-2, .img-3, .img-4, .img-5 {
 
     background-attachment: fixed;
     background-position: center;  
@@ -30,6 +30,40 @@ body::-webkit-scrollbar {
 .img-1 {
     background-image: url("./resources/Galaxy.jpg");
     min-height: 100%;
+}
+
+.header, h2 {
+    position: relative;
+    padding: 15% 0 10%;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: #22325f;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy; 
+    font-size: 35px;
+
+    text-shadow: 0 1px 0 rgb(218, 224, 247),
+    0 2px 0 #b3b8d3,
+    0 3px 0 rgb(163, 174, 189),
+    0 4px 0 #959dad,
+    0 5px 0 rgb(128, 135, 150),
+    0 6px 1px rgba(121, 124, 138, 0.1),
+    0 0 5px rgba(204, 213, 243, 0.1),
+    0 1px 3px rgba(216, 220, 243, 0.3),
+    0 3px 5px rgba(234, 241, 191, 0.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(106, 104, 235, 0.2),
+    0 20px 20px #aad9ff26;
+}
+
+h2 {
+    
+    letter-spacing: 2px;
+    border: blue; 
+    bottom: 65px;
+    font-size: 40px;
+ 
 }
 
 .img-2 {
@@ -63,55 +97,9 @@ bottom: 0;
 
 .img-3 p {
     position: absolute;
-    top: 0px;
+    top: 10px;
     left: 50px;
 }
-
-/* .header-wrapper::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    opacity: 0.3;
-
-} */
-
-.header, h2 {
-    position: relative;
-    padding: 15% 0 10%;
-    max-width: 640px;
-    margin-left: auto;
-    margin-right: auto;
-
-    color: #22325f;
-    font-family: Copperplate, "Copperplate Gothic Light", fantasy; 
-    font-size: 35px;
-
-    text-shadow: 0 1px 0 rgb(218, 224, 247),
-    0 2px 0 #b3b8d3,
-    0 3px 0 rgb(163, 174, 189),
-    0 4px 0 #959dad,
-    0 5px 0 rgb(128, 135, 150),
-    0 6px 1px rgba(121, 124, 138, 0.1),
-    0 0 5px rgba(204, 213, 243, 0.1),
-    0 1px 3px rgba(216, 220, 243, 0.3),
-    0 3px 5px rgba(234, 241, 191, 0.2),
-    0 5px 10px rgba(0,0,0,.25),
-    0 10px 10px rgba(106, 104, 235, 0.2),
-    0 20px 20px #aad9ff26;
-}
-h2 {
-    
-    letter-spacing: 2px;
-    border: blue; 
-    bottom: 65px;
-    font-size: 40px;
- 
-}
-
-
 
 
 
@@ -131,4 +119,22 @@ h2 {
     margin: 0px 0px;
 }
 
+.img-4 {
 
+}
+
+
+.img-5 {
+    background-image: url("./resources/wallpaperflare.com_wallpaper.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    min-height: 800px;
+    margin: 700px 0px 0px 0px;
+    position: relative;
+    /* background-color: #22325f; */
+}
+
+p.intermission {
+    background-color:rgb(36 24 44);
+border-style: outset;
+}
