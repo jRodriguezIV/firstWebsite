@@ -3,7 +3,14 @@ body, html {
     height: 100%;
     margin: 0;
     text-align: center;
+    font: 600 15px/1.8 "Lato", sans-serif;
+    color: whitesmoke;
 }
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
 
 
 /* html {
@@ -12,15 +19,55 @@ body, html {
 } */
 
 
-.img-1 {
-    background-image: url("./resources/Galaxy.jpg");
+.img-1, .img-2, .img-3 {
+
     background-attachment: fixed;
     background-position: center;  
     background-size: cover;   
     background-repeat: no-repeat;
 }
 
-.header-wrapper::before {
+.img-1 {
+    background-image: url("./resources/Galaxy.jpg");
+    min-height: 100%;
+}
+
+.img-2 {
+    background-image: url("./resources/Galaxy-lotus.jpg");
+    /* background-size: 200; */
+   margin: 700px 450px;
+   border-radius: 10% 10%;
+   background-size: 57%;
+   padding-top: 75px;
+   background-color: #4e0acc;
+   background-repeat:no-repeat;
+   top: 150px;
+
+    
+}
+
+.img-3 h2 {
+bottom: 0;
+}
+
+.img-3 {
+    background-image: url("./resources/river-g38b20036b_1920.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    margin: 700px 0;
+    position: relative;
+
+
+}
+
+.img-3 p {
+    position: absolute;
+    top: 0px;
+    left: 50px;
+}
+
+/* .header-wrapper::before {
     content: "";
     position: absolute;
     top: 0;
@@ -29,9 +76,9 @@ body, html {
     left: 0;
     opacity: 0.3;
 
-}
+} */
 
-.header {
+.header, h2 {
     position: relative;
     padding: 15% 0 10%;
     max-width: 640px;
@@ -40,6 +87,7 @@ body, html {
 
     color: #22325f;
     font-family: Copperplate, "Copperplate Gothic Light", fantasy; 
+    font-size: 35px;
 
     text-shadow: 0 1px 0 rgb(218, 224, 247),
     0 2px 0 #b3b8d3,
@@ -54,23 +102,33 @@ body, html {
     0 10px 10px rgba(106, 104, 235, 0.2),
     0 20px 20px #aad9ff26;
 }
+h2 {
+    
+    letter-spacing: 2px;
+    border: blue; 
+    bottom: 65px;
+    font-size: 40px;
+ 
+}
 
 
 
-/*//////////*/
 
 
 .bottom-half-wrap {
-    position: relative;
-    background-color: white;
-} 
+    padding: none;
+}
 
-.bottom-half {
-    position: relative;
-    max-width: 640px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 40px;
+.intermission, h3 {
+    position: relative; 
+    color: white;
+    background-color: #22325f;
+    text-align: center;
+    padding: 50px 80px;
+    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin: 0px 0px;
 }
 
 
