@@ -1,0 +1,76 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+
+/* html {
+    background-color: white;
+
+} */
+
+
+.img-1 {
+    background-image: url("./resources/Galaxy.jpg");
+    background-attachment: fixed;
+    background-position: center;  
+    background-size: cover;   
+    background-repeat: no-repeat;
+}
+
+.header-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.3;
+
+}
+
+.header {
+    position: relative;
+    padding: 15% 0 10%;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: #22325f;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy; 
+
+    text-shadow: 0 1px 0 rgb(218, 224, 247),
+    0 2px 0 #b3b8d3,
+    0 3px 0 rgb(163, 174, 189),
+    0 4px 0 #959dad,
+    0 5px 0 rgb(128, 135, 150),
+    0 6px 1px rgba(121, 124, 138, 0.1),
+    0 0 5px rgba(204, 213, 243, 0.1),
+    0 1px 3px rgba(216, 220, 243, 0.3),
+    0 3px 5px rgba(234, 241, 191, 0.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(106, 104, 235, 0.2),
+    0 20px 20px #aad9ff26;
+}
+
+
+
+/*//////////*/
+
+
+.bottom-half-wrap {
+    position: relative;
+    background-color: white;
+} 
+
+.bottom-half {
+    position: relative;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+}
+
+
