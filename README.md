@@ -1,2 +1,2 @@
 # firstWebsite
-A product of me learning as I go and implementing the skills into art :)
+A product of me learning as I go and implementing my newfound skills into art :)
